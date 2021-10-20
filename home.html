@@ -1,0 +1,215 @@
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <meta charset="utf-8">
+    <link href="./home.css" rel="stylesheet">
+    <link href="./about.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0db68a485.js" crossorigin="anonymous"></script>
+    <script src="./html.js"></script>
+</head>
+
+<body>
+    <div class="background" style="display: block;">
+        <p class="name">evelyn Li</p>
+        <div class="title">
+            <span>My name is Menghan Li.</span><br>
+        </div>
+        <li>
+            <ul class="list">
+                <li class="one">I am a Web Developer.</li>
+                <li class="two">I love Travel.</li>
+                <li class="three">I love Music.</li>
+                <li class="four">I will do my Best. </li>
+
+            </ul>
+        </li>
+    </div>
+    <div style="display: none; " class="photo">
+        <div class="photocake">
+            <div class="word">resume</div>
+            <button class="education" onclick="showDiv(div1,div2)">Education</button>
+            <button class="experience" onclick="showDiv(div2,div1)">work experience</button>
+            <div class="school" id="div1" style="display:block">
+                <div class="Bachelor">
+                    <ul>
+                        <li style="margin: 0 0 5px 0;
+                        font-size: 16px;
+                        color: #ffffff;
+                        font-weight: 700;"> North China University of Technology</li>
+                        <li style="margin: 0 0 15px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #777777;">2015.9 - 2019.6 | Beijing</li>
+                        <li>Bachelor Degree in Computing Science</li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="Master">
+                    <ul>
+                        <li style="margin: 0 0 5px 0;
+                        font-size: 16px;
+                        color: #ffffff;
+                        font-weight: 700;"> University of Adelaide</li>
+                        <li style="margin: 0 0 15px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #8b8a8a;">2019.7 - 2021.12 | Adelaide</li>
+
+                        <li>Master Degree in Computing and Innovation</li>
+                    </ul>
+                </div>
+                <div class="Master">
+                    <ul>
+                        <li style="margin: 0 0 5px 0;
+                        font-size: 16px;
+                        color: #ffffff;
+                        font-weight: 700;"> Full Stack Course</li>
+                        <li style="margin: 0 0 15px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #8b8a8a;">2021.1 - 2021.9 | Adelaide</li>
+
+                        <li>Learn some knowledge in node.js and react</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work" id="div2" style="display:none">
+                <div class="SumScope">
+                    <ul>
+                        <li style="margin: 0 0 5px 0;
+                        font-size: 16px;
+                        color: #ffffff;
+                        font-weight: 700;">Sumscope</li>
+                        <li style="margin: 0 0 15px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #8b8a8a;">2019.12 - present | Zhejiang</li>
+                        <li>Software Engineer</li>
+                        <p>Collaborate with creative and development teams on the execution of ideas.</p>
+                    </ul>
+                </div>
+                <div class="Sumscope">
+                    <ul>
+                        <li style="margin: 0 0 5px 0;
+                        font-size: 16px;
+                        color: #ffffff;
+                        font-weight: 700;">The New Oriental</li>
+                        <li style="margin: 0 0 15px 0;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #8b8a8a;">2016.1 - 2019.6 | Beijing</li>
+                        <li>Teacher assistant in IELTS</li>
+                        <p>Help students in English and complete classroom teaching tasks with the teacher.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill1">
+                <div><span style="color:green"><br>Personal </span>Skills</div>
+                <ul style="font-size: 15;">
+                    <li>
+                        <div>Communication</div>
+                        <div class="progress">
+                            <div style="width: 90%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Team Work</div>
+                        <div class="progress">
+                            <div style="width: 80%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Leadership</div>
+                        <div class="progress">
+                            <div style="width: 60%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Language</div>
+                        <div class="progress">
+                            <div style="width: 90%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="skill2">
+                <div><span style="color:green"><br>Professional </span>Skills</div>
+                <ul style="font-size: 15;">
+                    <li>
+                        <div>HTML / CSS / JS</div>
+                        <div class="progress">
+                            <div style="width: 95%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Node.js / Mysql</div>
+                        <div class="progress">
+                            <div style="width: 80%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Data Analysis</div>
+                        <div class="progress">
+                            <div style="width: 70%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <div>Git</div>
+                        <div class="progress">
+                            <div style="width: 80%;" class="percentage"></div>
+                        </div>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+        </div>
+        <div class="me">
+            <a href="李梦晗-简历.pdf" download="resume">
+                <button style="margin-top: 7%; margin-left: 5%; background-color:#c0a1a1; border-radius: 15px;">download my resume</button>
+            </a>
+        </div>
+    </div>
+    <header>
+        <div class="top-menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon fas fa-home">
+                            </span>
+                        <span class="link">home</span>
+                    </a>
+                </li>
+                <li>
+                    <a name="photo" onclick="div_none('photo','background');">
+                        <span class="icon far fa-user-circle"></span>
+                        <span class="link">about me</span>
+                    </a>
+                </li>
+                <li>
+                    <a name="git" onclick="div_none('git','background');">
+                        <span class="icon fab fa-github"></span>
+                        <span class="link">project</span>
+                    </a>
+                </li>
+                <li>
+                    <a name="contact" onclick="div_none('contact','background');">
+                        <span class="icon far fa-envelope"></span>
+                        <span class="link">contact way</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+</body>
+
+</html>

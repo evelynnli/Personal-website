@@ -1,0 +1,134 @@
+.background {
+    background-image: url("./home.JPG");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+    background-position: center, center;
+}
+
+.top-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4%;
+    font-size: 20px;
+    background-color: #181818;
+}
+
+.top-menu ul {
+    position: absolute;
+    list-style: none;
+    top: 0px;
+    left: 10px;
+    padding-left: 0px;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none
+}
+
+ul li a .icon {
+    position: center;
+    top: 0px;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+a .link {
+    position: relative;
+    left: 50%;
+    top: -50px;
+    height: 22px;
+    font-size: 14px;
+    color: cornsilk;
+    font-weight: 200;
+    opacity: 1;
+    display: none;
+}
+
+a:hover .link {
+    display: block;
+}
+
+.name {
+    position: fixed;
+    bottom: 0em;
+    right: 1em;
+    color: rgb(219, 191, 65);
+}
+
+.title {
+    font-size: 66px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 10%;
+}
+
+.list {
+    list-style: none;
+    margin-left: -50px;
+    padding-left: 25%;
+    width: 600px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.list li {
+    width: 600px;
+    height: 60px;
+    position: relative;
+    animation: myfirst 8s infinite;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px;
+}
+
+@keyframes myfirst {
+    0% {
+        color: rgb(49, 46, 46);
+        top: 0px;
+    }
+    25% {
+        top: 0px;
+    }
+    50% {
+        top: -60px;
+    }
+    75% {
+        top: -120px;
+    }
+    100% {
+        top: -180px;
+    }
+}
+
+.me {
+    background-image: url("./me.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+    background-position: center, center;
+}
